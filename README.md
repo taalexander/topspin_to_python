@@ -16,9 +16,8 @@ Doing complex analysis of TopSpin data can be a pain in TopSpin. Exporting and c
 
 Requires [Jcamp](https://github.com/nzhagen/jcamp) to read the TopSpin acqusition parameters. 
 Other required python dependencies are
-``` numpy
+`numpy`
 
- ```
 ## API Reference
 
 TODO
