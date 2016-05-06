@@ -11,6 +11,7 @@ __all__ = [
 
 ## IMPORTS ####################################################################
 import numpy as np
+import os.path
 from fid import read_fid
 from acqu_pars import read_acqu_pars, prune_acqu_pars, format_acqu_pars
 import prune_lists
@@ -42,18 +43,31 @@ def read_experiment(exp_fp,prune_acqu=True,format_acqu=True,prune_list=None,form
 
     experiment = {}
 
-    exp_fid = read_fid(exp_fp+'fid')
 
-    experiment['fid'] = exp_fid 
 
     acqu_pars = read_acqu_pars(exp_fp+'acqu')
+    formatted_acqu = format_acqu_pars(acqu_pars,format_list)
 
-    # perform pruning/formatting
     if prune_acqu:
         acqu_pars = prune_acqu_pars(acqu_pars,prune_list)
     if format_acqu:
-        acqu_pars = format_acqu_pars(acqu_pars,format_list)
+        acqu_pars = formatted_acqu
 
     experiment['acqu'] = acqu_pars
+
+    if os.path.isfile(exp_fp+'fid'):
+        
+        sfo = formatted_acqu['sfo'][\
+            np.nonzero(formatted_acqu['recchan'])[0][0]]*1E6
+        td = formatted_acqu['td']
+        aq = float(td)/formatted_acqu['sw_h']/2
+        experiment['acqu']['aq'] = aq
+        times = np.linspace(0,aq,td/2)
+        exp_fid = read_fid(exp_fp+'fid',times=times,sfo=sfo)
+        experiment['fid'] = exp_fid 
+
+    # perform pruning/formatting
+
+    
 
     return experiment 
