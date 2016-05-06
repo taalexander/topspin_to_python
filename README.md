@@ -14,9 +14,7 @@ Doing complex analysis of TopSpin data can be a pain in TopSpin. Exporting and c
 
 ## Installation
 
-Currently requires a specfic fork of [Jcamp](https://github.com/whitewhim2718/jcamp) to read the TopSpin acqusition parameters. 
-When fork is pulled into the main repository this README will be updated. 
-
+Requires [Jcamp](https://github.com/nzhagen/jcamp) to read the TopSpin acqusition parameters. 
 Other required python dependencies are
 ``` numpy
 
