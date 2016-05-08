@@ -1,0 +1,11 @@
+##TITLE= Parameter file, TOPSPIN		Version 2.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2016-05-02 22:04:33.346 -0400  nmr@dc-400sb
+$$ /opt/topspin/data/Rahul/nmr/Silicon Phosphorus Stick Sample 4K/281/pdata/1/assocs
+$$ process /opt/topspin/prog/mod/dirdata
+##$MULTDISP= </opt/topspin/data/Rahul/nmr/Silicon Phosphorus Stick Sample 4K/282/pdata/1|/opt/topspin/data/Rahul/nmr/Silicon Phosphorus Stick Sample 4K/284/pdata/1>
+##END=

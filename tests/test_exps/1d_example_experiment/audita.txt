@@ -1,0 +1,18 @@
+##TITLE= Audit trail, TOPSPIN		Version 2.1
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ /opt/topspin/data/Rahul/nmr/Silicon Phosphorus Stick Sample 4K/281/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2016-05-02 22:22:00.968 -0400>,<nmr>,<dc-400sb>,<go>,<TOPSPIN 2.1>,
+      <created by zg
+	started at 2016-05-02 22:05:14.691 -0400,
+	POWCHK disabled, PULCHK disabled,
+       configuration hash MD5:
+       9B 4C 19 13 F7 61 A9 38 9C E1 00 68 1C E0 FC 40
+       data hash MD5: 64K
+       2F F3 6D 6C 76 A6 9C D9 8A AE 4C C3 63 DE 1D 3B>)
+##END=
+
+$$ hash MD5
+$$ 55 D6 21 A1 36 66 57 FD BF 24 F7 3D 7F 70 A3 9D

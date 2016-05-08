@@ -1,0 +1,17 @@
+##TITLE= Parameter file, TOPSPIN		Version 2.1
+##JCAMPDX= 5.0
+##DATATYPE= Parameter Values
+##NPOINTS= 1	$$ modification sequence number
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmr
+$$ 2016-05-02 22:04:33.348 -0400  nmr@dc-400sb
+$$ /opt/topspin/data/Rahul/nmr/Silicon Phosphorus Stick Sample 4K/281/pdata/1/outd
+$$ process /opt/topspin/prog/mod/dirdata
+##$CURPLOT= <HP_LaserJet_P2055>
+##$CURPRIN= <dconpeaks.txt>
+##$DFORMAT= <normdp>
+##$LAYOUT= <+/1D_H.xwp>
+##$LFORMAT= <normlp>
+##$PFORMAT= <normpl>
+##$SURQMSG= 1
+##END=

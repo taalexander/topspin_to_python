@@ -1,0 +1,10 @@
+numpy
+scipy
+
+future
+
+pytest
+pytest-cov
+pytest-xdist
+coveralls
+pylint
