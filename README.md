@@ -23,8 +23,7 @@ To install run
 ```git clone git@github.com:whitewhim2718/topspin_to_python.git
 cd topspin_to_python
 pip install -r requirements.txt 
-python setup.py install 
-```
+python setup.py install ```
 
 ## API Reference
 
